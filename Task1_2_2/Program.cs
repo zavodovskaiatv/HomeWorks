@@ -1,4 +1,5 @@
-﻿namespace Task1_2_2
+﻿//Угол а задан в градусах, минутах и секундах. Найти его величину в радианах.
+namespace Task1_2_2
 {
     internal class Program
     {
@@ -9,7 +10,7 @@
             int sec = Convert.ToInt32(Console.ReadLine());
             double rad = (deg * Math.PI / 180) + (min * Math.PI / (180 * 60)) + (sec * Math.PI / (180 * 60 * 60));
             Console.WriteLine(rad);
-            Console.WriteLine();
+            Console.ReadKey();
         }
     }
 }

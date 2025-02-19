@@ -1,4 +1,5 @@
-﻿namespace Task1_2_4
+﻿//Вводится четырехзначное число. Поменять местами 2-ую и 4-ую цифру.
+namespace Task1_2_4
 {
     internal class Program
     {

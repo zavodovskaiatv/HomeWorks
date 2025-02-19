@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1_2_4", "Task1_2_4\Task
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1_2_5", "Task1_2_5\Task1_2_5.csproj", "{11825D3A-50D1-48C2-B461-1DCB6EDEB54E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{E64D6BF5-F83B-4412-AE8F-A201032221A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1_2-7_со_звездочкой", "Task1_2-7_со_звездочкой\Task1_2-7_со_звездочкой.csproj", "{998D8E60-77F6-4B0D-95B2-CC716BB4A343}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,10 @@ Global
 		{11825D3A-50D1-48C2-B461-1DCB6EDEB54E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11825D3A-50D1-48C2-B461-1DCB6EDEB54E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11825D3A-50D1-48C2-B461-1DCB6EDEB54E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{998D8E60-77F6-4B0D-95B2-CC716BB4A343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{998D8E60-77F6-4B0D-95B2-CC716BB4A343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{998D8E60-77F6-4B0D-95B2-CC716BB4A343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{998D8E60-77F6-4B0D-95B2-CC716BB4A343}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
