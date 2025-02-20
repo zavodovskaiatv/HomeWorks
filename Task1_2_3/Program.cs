@@ -7,7 +7,7 @@ namespace Task1_2_3
         {
             const double i = 2.54;
             double l1 = Convert.ToDouble(Console.ReadLine());
-            double l2 = l1 * i * 10;
+            double l2 = l1 * i * 10; //перевод в мм
             int m = (int)(l2 / 1000);
             int cm = (int)((l2 % 1000) / 10);
             int mm = (int)(l2 % 10);
