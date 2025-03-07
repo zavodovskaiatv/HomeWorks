@@ -13,7 +13,7 @@ namespace Task3_12
         {
             Console.WriteLine("Введите целое число в диапазоне 100–999:");
             uint n = Convert.ToUInt32(Console.ReadLine());
-                        uint a = n / 100;
+            uint a = n / 100;
             uint b = (n / 10) % 10;
             uint c = n % 10;
             if (n < 100 || n > 999)
