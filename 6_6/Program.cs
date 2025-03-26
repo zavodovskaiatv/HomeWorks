@@ -9,7 +9,7 @@ namespace _6_6
     {
         static void Main(string[] args)
         {
-            string pattern = @"[a-zA-Z0-9!#;%:?*]{14,}";
+            string pattern = @"^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!#;%:?*]).{14,}$";
             Regex regex = new Regex(pattern);
             while (true)
             {
