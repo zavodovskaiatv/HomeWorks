@@ -9,13 +9,15 @@ namespace _8_1
     {
         static void Main(string[] args)
         {
+            int a = 1;
+            int b = 1;
             try
             {
                 Console.WriteLine("Введите два целых числа");
                 Console.Write("a=");
-                int a = Convert.ToInt32(Console.ReadLine());
+                a = Convert.ToInt32(Console.ReadLine());
                 Console.Write("b=");
-                int b = Convert.ToInt32(Console.ReadLine());
+                b = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Выберите операцию:");
                 Console.WriteLine("1 - сложение");
                 Console.WriteLine("2 - вычитание");

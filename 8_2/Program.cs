@@ -7,10 +7,11 @@
     {
         static void Main(string[] args)
         {
+            int age = 0;
             try
             {
                 Console.WriteLine("Введите возраст.");
-                int age = Convert.ToInt32(Console.ReadLine());
+                age = Convert.ToInt32(Console.ReadLine());
                 ValidateAge(age);
                 Console.WriteLine("Введенный возраст корректен.");
             }
